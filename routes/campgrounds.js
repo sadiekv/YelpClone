@@ -102,6 +102,7 @@ function isLoggedIn(req, res, next){
     }
     res.redirect("/login");
 }
+//Campground middleware???
  
 function checkCampgroundOwnership(req,res,next){
 		if(req.isAuthenticated()){
